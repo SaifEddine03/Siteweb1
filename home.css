@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;  
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+
+header {
+    background-color: #333;  
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #444; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #f39c12;
+    color: white;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.product {
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 180px; 
+    object-fit: cover;
+}
+
+.product:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2)
+}
+
+.product:hover {
+    transform: scale(1.05); 
+}
+
+.price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #f39c12;
+    margin-top: 10px;
+}
+.oldprice{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #450000;
+    margin-top: 10px;
+    text-decoration: line-through;
+
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
